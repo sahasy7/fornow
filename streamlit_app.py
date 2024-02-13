@@ -1,7 +1,7 @@
 from llama_index.llms.base import ChatMessage, MessageRole
 from llama_index.prompts import ChatPromptTemplate
-from llama_index import VectorStoreIndex, SimpleDirectoryReader, ServiceContext
-from llama_index.llms import OpenAI
+from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, ServiceContext
+from llama-index-llms-openai import OpenAI
 from pathlib import Path
 from llama_index import download_loader
 import openai
