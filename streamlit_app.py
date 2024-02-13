@@ -1,4 +1,4 @@
-from llama_index.llms.base import ChatMessage, MessageRole
+from llama_index.core.llms import ChatMessage, MessageRole
 from llama_index.prompts import ChatPromptTemplate
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, ServiceContext
 from llama_index.llms.openai import OpenAI
